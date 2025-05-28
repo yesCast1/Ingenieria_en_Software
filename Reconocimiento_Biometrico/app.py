@@ -1,4 +1,6 @@
 import os
+import sys
+sys.path.append(os.path.abspath("face_recognition_models"))
 import datetime
 import base64
 import numpy as np
